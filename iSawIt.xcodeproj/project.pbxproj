@@ -13,6 +13,12 @@
 		2C19160019BB8D7E007B0ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1915FE19BB8D7E007B0ECB /* Main.storyboard */; };
 		2C19160219BB8D7E007B0ECB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C19160119BB8D7E007B0ECB /* Images.xcassets */; };
 		2C19160E19BB8D7E007B0ECB /* iSawItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19160D19BB8D7E007B0ECB /* iSawItTests.swift */; };
+		2C33EF5519BB980E000ED585 /* Seasons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C33EF5419BB980E000ED585 /* Seasons.swift */; };
+		2C33EF5719BB980E000ED585 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C33EF5619BB980E000ED585 /* Series.swift */; };
+		2C33EF5919BB980F000ED585 /* Episodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C33EF5819BB980F000ED585 /* Episodes.swift */; };
+		2C33EF5B19BB9883000ED585 /* SeriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C33EF5A19BB9883000ED585 /* SeriesTableViewController.swift */; };
+		2C33EF5D19BB9896000ED585 /* SeasonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C33EF5C19BB9896000ED585 /* SeasonsTableViewController.swift */; };
+		2C33EF5F19BB98A3000ED585 /* EpisodesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C33EF5E19BB98A3000ED585 /* EpisodesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,13 @@
 		2C19160719BB8D7E007B0ECB /* iSawItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSawItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C19160C19BB8D7E007B0ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C19160D19BB8D7E007B0ECB /* iSawItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSawItTests.swift; sourceTree = "<group>"; };
+		2C33EF5419BB980E000ED585 /* Seasons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seasons.swift; sourceTree = "<group>"; };
+		2C33EF5619BB980E000ED585 /* Series.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
+		2C33EF5819BB980F000ED585 /* Episodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episodes.swift; sourceTree = "<group>"; };
+		2C33EF5A19BB9883000ED585 /* SeriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesTableViewController.swift; sourceTree = "<group>"; };
+		2C33EF5C19BB9896000ED585 /* SeasonsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonsTableViewController.swift; sourceTree = "<group>"; };
+		2C33EF5E19BB98A3000ED585 /* EpisodesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodesTableViewController.swift; sourceTree = "<group>"; };
+		2C33EF6019BB99BD000ED585 /* iSawIt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSawIt-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +92,16 @@
 			children = (
 				2C1915F719BB8D7E007B0ECB /* AppDelegate.swift */,
 				2C1915FC19BB8D7E007B0ECB /* ViewController.swift */,
+				2C33EF5A19BB9883000ED585 /* SeriesTableViewController.swift */,
+				2C33EF5E19BB98A3000ED585 /* EpisodesTableViewController.swift */,
+				2C33EF5C19BB9896000ED585 /* SeasonsTableViewController.swift */,
 				2C1915FE19BB8D7E007B0ECB /* Main.storyboard */,
 				2C19160119BB8D7E007B0ECB /* Images.xcassets */,
 				2C1915F919BB8D7E007B0ECB /* iSawIt.xcdatamodeld */,
+				2C33EF5819BB980F000ED585 /* Episodes.swift */,
+				2C33EF5619BB980E000ED585 /* Series.swift */,
+				2C33EF5419BB980E000ED585 /* Seasons.swift */,
+				2C33EF6019BB99BD000ED585 /* iSawIt-Bridging-Header.h */,
 				2C1915F519BB8D7E007B0ECB /* Supporting Files */,
 			);
 			path = iSawIt;
@@ -211,9 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C33EF5519BB980E000ED585 /* Seasons.swift in Sources */,
 				2C1915FD19BB8D7E007B0ECB /* ViewController.swift in Sources */,
+				2C33EF5B19BB9883000ED585 /* SeriesTableViewController.swift in Sources */,
 				2C1915FB19BB8D7E007B0ECB /* iSawIt.xcdatamodeld in Sources */,
+				2C33EF5D19BB9896000ED585 /* SeasonsTableViewController.swift in Sources */,
+				2C33EF5919BB980F000ED585 /* Episodes.swift in Sources */,
+				2C33EF5F19BB98A3000ED585 /* EpisodesTableViewController.swift in Sources */,
 				2C1915F819BB8D7E007B0ECB /* AppDelegate.swift in Sources */,
+				2C33EF5719BB980E000ED585 /* Series.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,9 +355,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iSawIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iSawIt/iSawIt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -340,9 +369,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iSawIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iSawIt/iSawIt-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -399,6 +430,7 @@
 				2C19161319BB8D7E007B0ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C19161419BB8D7E007B0ECB /* Build configuration list for PBXNativeTarget "iSawItTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +439,7 @@
 				2C19161619BB8D7E007B0ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
